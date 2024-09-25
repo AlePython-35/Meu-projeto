@@ -1,0 +1,12 @@
+# Posição de jogadores em um time...
+POSIÇÃO = input("Qual a posição você jogar?")
+
+
+if POSIÇÃO == "goleiro" or POSIÇÃO == "zagueiro"  or POSIÇÃO == "lateral":
+    print("Você jogar na defesa!")
+elif POSIÇÃO == "ala" or POSIÇÃO == "volante" or POSIÇÃO == "meia":  
+     print("Você jogar no meio de campo!")
+elif POSIÇÃO == "ponta" or POSIÇÃO == "atacante" or POSIÇÃO == "centroavante":
+    print("Você jogar no ataque")  
+else:   
+    print("Teimoso!")      
